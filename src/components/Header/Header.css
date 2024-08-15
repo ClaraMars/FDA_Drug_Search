@@ -1,0 +1,13 @@
+.c-header__appbar {
+  margin: 1.5rem auto 3rem;
+  border: 1px solid;
+  border-radius: 50px;
+}
+
+.c-header__box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}

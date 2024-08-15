@@ -1,0 +1,23 @@
+.c-details__info-header-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 2rem;
+}
+
+.c-details__info-header {
+  min-width: 100px;
+}
+
+@media (min-width: 576px) {
+  .c-details__info-header {
+    min-width: fit-content;
+  }
+}
+
+@media (min-width: 992px) {
+  .c-details__info-header-wrapper {
+    justify-content: left;
+    gap: 5rem;
+  }
+}
