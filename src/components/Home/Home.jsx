@@ -116,7 +116,7 @@ export default function Home() {
   }, [error]);
 
   return (
-    <Box p="0 5rem">
+    <Box p="0 5rem" className="o-container">
       <Box className="c-home__box-titles">
         <CustomTypographyH1 variant="h1">
           FDA Drug

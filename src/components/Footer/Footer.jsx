@@ -13,9 +13,11 @@ export default function Footer() {
   return (
     <CustomFooter component="footer">
       <Divider />
-      <Typography p={3} color="text.secondary">
-        FDA-Approved Drugs Search Project - 2024
-      </Typography>
+      <Box className="o-container">
+        <Typography p={3} color="text.secondary">
+          FDA-Approved Drugs Search Project - 2024
+        </Typography>
+      </Box>
     </CustomFooter>
   );
 }

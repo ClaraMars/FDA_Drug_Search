@@ -118,7 +118,7 @@ const MaterialUISwitch = styled(Switch)(({ theme }) => ({
 export default function HideAppBar(props) {
   return (
     <>
-      <CustomHeader className="c-header__appbar" position="static">
+      <CustomHeader className="c-header__appbar o-container" position="static">
         <Toolbar id="toolbar-anchor">
           <Box className="c-header__box">
             <CustomHeaderTitle variant="h6" component="div">

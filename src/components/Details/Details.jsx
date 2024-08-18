@@ -126,7 +126,7 @@ export default function Details() {
   }, []);
 
   return (
-    <Box p="0 5rem">
+    <Box p="0 5rem" className="o-container">
       <Link
         href="#"
         underline="hover"
